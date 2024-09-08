@@ -1,4 +1,4 @@
-- name: install nginx and run
+- name: Configure Nginx to listen on private IP
   hosts: web
   become: true
   tasks:
